@@ -13,6 +13,9 @@
             ],
             "js": [
                 "./dont-bother.js"
+            ],
+            "css": [
+                "./dont-bother.css"
             ]
         }
     ],

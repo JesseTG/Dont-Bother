@@ -1,0 +1,7 @@
+.tweet.bot p.tweet-text {
+    filter: blur(0.15em);
+}
+
+.tweet.bot img.avatar {
+    filter: grayscale(100%) blur(1px) brightness(0.5);
+}
