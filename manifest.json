@@ -1,0 +1,24 @@
+{
+    "manifest_version": 2,
+    "name": "Don't Bother",
+    "version": "1.0",
+    "icons": {
+        "48": "icons/border-48.png"
+    },
+    "description": "Tells you if someone on Twitter might be a bot (or might have talked to one).",
+    "content_scripts": [
+        {
+            "matches": [
+                "*://twitter.com/*"
+            ],
+            "js": [
+                "./dont-bother.js"
+            ]
+        }
+    ],
+    "applications": {
+        "gecko": {
+            "id": "dont-bother@jessetg.github.io"
+        }
+    }
+}
